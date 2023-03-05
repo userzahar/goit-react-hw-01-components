@@ -20,6 +20,11 @@
     margin-bottom: 8px;
 }
 
+.item:hover {
+    background-color: rgb(158, 237, 247);
+    cursor: pointer;
+}
+
 .statusRed {
     background-color: red;
     width: 10px;

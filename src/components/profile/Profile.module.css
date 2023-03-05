@@ -47,6 +47,12 @@
     border-left: 1px solid rgb(231, 236, 242);
 }
 
+.stats li:hover {
+    background-color: rgb(158, 237, 247);
+    cursor: pointer;
+}
+
+
 .name {
     font-size: 100;
 }

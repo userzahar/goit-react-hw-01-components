@@ -17,3 +17,9 @@
 .body:nth-child(2n) {
     background-color: rgb(236, 241, 243);
 }
+
+.body:nth-child(2n):hover,
+.body:hover {
+    background-color: rgb(158, 237, 247);
+    cursor: pointer;
+}

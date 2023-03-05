@@ -1,9 +1,10 @@
 import friendCSS from './FriendList.module.css'
 function FriendListItem({ avatar, name, isOnline }) {
-    return <li className="item" >
-        <span className="status">{isOnline}</span>
+    return <li className={friendCSS.item} >
+        <span className={
+            isOnline ? friendCSS.statusGreen : friendCSS.statusRed}>{isOnline}</span>
         <img className="avatar" src={avatar} alt="User avatar" width="48" />
-        <p className="name">{name}</p>
+        <p className={friendCSS.name}>{name}</p>
     </li >
 }
 

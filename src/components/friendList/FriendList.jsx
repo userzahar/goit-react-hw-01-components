@@ -1,5 +1,5 @@
 import friendCSS from './FriendList.module.css';
-// import PropTypes from 'prop-types';
+import PropTypes from 'prop-types';
 function FriendListItem({ avatar, name, isOnline }) {
     return <li className={friendCSS.item} >
         <span className={

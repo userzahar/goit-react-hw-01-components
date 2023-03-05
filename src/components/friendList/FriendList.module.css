@@ -13,6 +13,7 @@
     align-items: center;
     background-color: #fff;
     border-radius: 4px;
+    box-shadow: 0 2px 3px 1px rgba(0, 0, 0, 0.3);
 }
 
 .item:not(:last-child) {
@@ -37,4 +38,5 @@
 
 .name {
     margin-left: 12px;
+    font-weight: 700;
 }

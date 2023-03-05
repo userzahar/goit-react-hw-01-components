@@ -1,5 +1,5 @@
 import transCss from './TransactionHistory.module.css';
-import PropTypes from 'prop-types';
+// import PropTypes from 'prop-types';
 export const TransactionHistory = ({ items }) => {
     return <> <table className={transCss.transactionHistory}>
         <thead>

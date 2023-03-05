@@ -17,11 +17,11 @@ export const FriendList = ({ friends }) => {
     </ul >
 }
 
-FriendListItem.propTypes = {
-    avatar: PropTypes.string,
-    name: PropTypes.string,
-    isOnline: PropTypes.bool
-}
+// FriendListItem.propTypes = {
+//     avatar: PropTypes.string,
+//     name: PropTypes.string,
+//     isOnline: PropTypes.bool
+// }
 // FriendList.propTypes = {
 //     friends: PropTypes.arrayOf(PropTypes.object)
 // }

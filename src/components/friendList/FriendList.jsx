@@ -1,5 +1,5 @@
 import friendCSS from './FriendList.module.css'
-function FriendListItem({ avatar, name, isOnline, id }) {
+function FriendListItem({ avatar, name, isOnline }) {
     return <li className="item" >
         <span className="status">{isOnline}</span>
         <img className="avatar" src={avatar} alt="User avatar" width="48" />

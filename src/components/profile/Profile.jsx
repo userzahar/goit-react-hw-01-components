@@ -1,18 +1,20 @@
+import profileCSS from './Profile.module.css';
+
 
 export const Profile = ({ username, tag, location, avatar, stats }) => {
-    return <div className="profile">
-        <div className="description">
+    return <div className={profileCSS.profile}>
+        <div className={profileCSS.description}>
             <img
                 src={avatar}
                 alt="User avatar"
-                className="avatar"
+                className={profileCSS.avatar}
             />
             <p className="name">{username}</p>
             <p className="tag">@{tag}</p>
             <p className="location">{location}</p>
         </div>
 
-        <ul className="stats">
+        <ul className={profileCSS.stats}>
             <li>
                 <span className="label">Followers</span>
                 <span className="quantity">{stats.followers}</span>

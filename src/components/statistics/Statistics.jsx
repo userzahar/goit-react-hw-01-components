@@ -1,4 +1,3 @@
-import data from '../../data/data.json'
 export const Statistics = ({ title, stats }) => {
     return <section className="statistics"> <h2>{title}</h2> <ul className="stat-list">
         {stats.map(({ label, percentage, id }) => {
@@ -9,4 +8,3 @@ export const Statistics = ({ title, stats }) => {
         })}
     </ul></section>
 }
-

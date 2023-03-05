@@ -28,4 +28,12 @@ export const Profile = ({ username, tag, location, avatar, stats }) => {
             </li>
         </ul>
     </div>
-} 
+}
+
+Profile.propTypes = {
+    username: PropTypes.string,
+    tag: PropTypes.string,
+    location: PropTypes.string,
+    avatar: PropTypes.string,
+    stats: PropTypes.object
+}

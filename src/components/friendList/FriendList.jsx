@@ -22,6 +22,6 @@ FriendListItem.propTypes = {
     name: PropTypes.string,
     isOnline: PropTypes.bool
 }
-FriendList.propTypes = {
-    friends: PropTypes.arrayOf(PropTypes.object)
-}
+// FriendList.propTypes = {
+//     friends: PropTypes.arrayOf(PropTypes.object)
+// }

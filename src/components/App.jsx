@@ -1,3 +1,8 @@
+import user from '../data/user.json';
+import { Profile } from './profile/Profile';
+
+console.log("🚀 ~ Profile:", Profile);
+console.log("🚀 ~ user:", user);
 
 export const App = () => {
   return (<>

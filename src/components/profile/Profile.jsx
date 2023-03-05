@@ -1,6 +1,4 @@
 import profileCSS from './Profile.module.css';
-
-
 export const Profile = ({ username, tag, location, avatar, stats }) => {
     return <div className={profileCSS.profile}>
         <div className={profileCSS.description}>
@@ -9,23 +7,23 @@ export const Profile = ({ username, tag, location, avatar, stats }) => {
                 alt="User avatar"
                 className={profileCSS.avatar}
             />
-            <p className="name">{username}</p>
-            <p className="tag">@{tag}</p>
-            <p className="location">{location}</p>
+            <p className={profileCSS.name}>{username}</p>
+            <p className={profileCSS.tag}>@{tag}</p>
+            <p className={profileCSS.location}>{location}</p>
         </div>
 
         <ul className={profileCSS.stats}>
             <li>
-                <span className="label">Followers</span>
-                <span className="quantity">{stats.followers}</span>
+                <span className={profileCSS.label}>Followers</span>
+                <span className={profileCSS.quantity}>{stats.followers}</span>
             </li>
             <li>
-                <span className="label">Views</span>
-                <span className="quantity">{stats.views}</span>
+                <span className={profileCSS.label}>Views</span>
+                <span className={profileCSS.quantity}>{stats.views}</span>
             </li>
             <li>
-                <span className="label">Likes</span>
-                <span className="quantity">{stats.likes}</span>
+                <span className={profileCSS.label}>Likes</span>
+                <span className={profileCSS.quantity}>{stats.likes}</span>
             </li>
         </ul>
     </div>

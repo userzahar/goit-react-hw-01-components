@@ -1,5 +1,5 @@
 import profileCSS from './Profile.module.css';
-// import PropTypes from 'prop-types';
+import PropTypes from 'prop-types';
 export const Profile = ({ username, tag, location, avatar, stats }) => {
     return <div className={profileCSS.profile}>
         <div className={profileCSS.description}>
@@ -30,10 +30,10 @@ export const Profile = ({ username, tag, location, avatar, stats }) => {
     </div>
 }
 
-// Profile.propTypes = {
-//     username: PropTypes.string,
-//     tag: PropTypes.string,
-//     location: PropTypes.string,
-//     avatar: PropTypes.string,
-//     stats: PropTypes.object
-// }
+Profile.propTypes = {
+    username: PropTypes.string,
+    tag: PropTypes.string,
+    location: PropTypes.string,
+    avatar: PropTypes.string,
+    stats: PropTypes.object
+}
